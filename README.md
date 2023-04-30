@@ -19,3 +19,20 @@ To get started with RedwoodJS on Vercel, you can [use Yarn to initialize](https:
 ```shell
 $ yarn create redwood-app ./my-redwood-app
 ```
+
+Steps:
+
+- node -v
+  v16.10.0
+- yarn -v
+  1.15.0
+- npm install
+  - yarn create redwood-app ./netlify-deploy (includes git init)
+- code netlify-deploy/
+- yarn redwood generate page home /
+- yarn redwood generate page my-page
+- yarn rw dev (to start in local : http://localhost:8910/)
+
+Git:
+
+- git add . && git commit -m "C" && git push origin main
